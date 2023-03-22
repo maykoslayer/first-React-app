@@ -1,0 +1,52 @@
+.contenedor-testimonio {
+
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    box-shadow: 0 3px 13px 1px  rgb(77, 77, 104);
+    border-radius: 30px;
+}
+
+.imagen {
+
+    max-width: 80%;
+    max-height: 80%;
+    min-width: 25%;
+    min-height: 75%;
+    object-fit: cover;
+    padding: 0;
+    border-radius: 20px;
+    margin: 30px;
+   box-shadow:  0 5px 5px 0 rgb(86, 86, 172);
+}
+.imagen:hover {
+
+    transform: rotate(360deg);
+    transition: 5000ms;
+    
+}
+
+
+
+.game {
+
+    font-weight: 800;
+    font-size: 35px;
+
+}
+
+
+
+.desarrollador {
+
+    font-size: 25px;
+    padding: 20px;
+}
+
+.resume {
+    margin: 20px;
+}
